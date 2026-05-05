@@ -46,6 +46,7 @@ Existe basicamente um ciclo de vida de uma conexão, que representa o tempo entr
 5. **Processamento dos Resultados**: a aplicação lê os dados retornados.
 6. **Fechamento da Conexão (Crucial)**: a conexão deve ser fechada para liberar os recursos ocupados no banco de dados.
 
+---
 
 ## O que é SQL injection?
 
