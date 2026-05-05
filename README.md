@@ -45,3 +45,12 @@ Existe basicamente um ciclo de vida de uma conexão, que representa o tempo entr
 4. **Execução da Consulta SQL**: o sql é enviado, processado (parsing, otimização) e é executado pelo SGBD.
 5. **Processamento dos Resultados**: a aplicação lê os dados retornados.
 6. **Fechamento da Conexão (Crucial)**: a conexão deve ser fechada para liberar os recursos ocupados no banco de dados.
+
+
+## O que é SQL injection?
+
+SQL injection ocorre quando dados enviados pelo usuário manipulam a consulta sql original, fazendo com que os atacantes consigam vizualizar, modificar ou exluir os dados confidenciais, conseguindo contornar mecânismos de autenticação.
+
+## Prepared statements
+
+Traduzindo, significa declarações preparadas, são um recurso do banco de dados que serve para realizar consultas SQL de forma mais eficiente e segura, separando o comando SQL dos dados. Primeiro eles copiam o modelo da query, para depois inserir os valores, prevenindo os ataques de injeção de SQL e melhorando o desempenho.
