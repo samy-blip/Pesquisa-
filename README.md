@@ -55,3 +55,17 @@ SQL injection ocorre quando dados enviados pelo usuário manipulam a consulta sq
 ## Prepared statements
 
 Traduzindo, significa declarações preparadas, são um recurso do banco de dados que serve para realizar consultas SQL de forma mais eficiente e segura, separando o comando SQL dos dados. Primeiro eles copiam o modelo da query, para depois inserir os valores, prevenindo os ataques de injeção de SQL e melhorando o desempenho.
+
+---
+
+# Fontes
+
+[Implementando o Data Access Object no Java EE](https://share.google/4ihFCeVaLs2HZJdnz)
+
+[Qual a diferença entre o Statement e o PreparedStatement?](https://share.google/W2FVViuEWw4kc3FSk)
+
+[How to prevent SQL Injection Vulnerabilities: How Prepared Statements Work](https://share.google/JeP67I9e9B6h5bK1w)
+
+[JDBC no Java: o que é, tipos e como usar | Alura](https://share.google/Fq7oRyQn3jkEwGyGf)
+
+[ORM, JPA, Hibernate, JDBC, JPQL, DDL, DML e DQL: descomplicando a sopa de letrinhas do Java](https://share.google/mQn6zQMUDlr2HVRWj)
