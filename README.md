@@ -1,6 +1,6 @@
-# Pesquisa-
+# Pesquisa
 
-## Padrão DAO
+## DAO
 
 ### O que é?
 
